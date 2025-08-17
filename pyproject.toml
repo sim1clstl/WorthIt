@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conveniencecalc"
+version = "0.1.0"
+description = "Smart Decision Engine for Convenience Optimization"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name="ConvenienceCalc Team"}]
+license = {text = "MIT"}
+dependencies = [
+    "pydantic>=2.7",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "typer>=0.12",
+    "rich>=13.7",
+    "scikit-learn>=1.5",
+]
+
+[project.scripts]
+conveniencecalc = "conveniencecalc.cli:app"
