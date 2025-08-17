@@ -1,6 +1,6 @@
 # ConvenienceCalc
 
-A Python implementation of the decision-support system described in the **ConvenienceCalc Comprehensive Technical Specification** (Aug 17, 2025). It quantifies time, stress, opportunity cost, comfort, and reliability to score premium convenience options and generate explanations, sensitivity analyses, and simulations.
+A Python implementation of the decision-support system described in the **ConvenienceCalc Comprehensive Technical Specification** . It quantifies time, stress, opportunity cost, comfort, and reliability to score premium convenience options and generate explanations, sensitivity analyses, and simulations.
 
 ## Features
 - Master Convenience Value with modular sub-benefits (time, stress, opportunity, comfort, reliability)
